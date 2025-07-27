@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .auth-button {
+    @apply rounded-full border border-[#00c1d4] bg-[#00c1d4] text-white text-xs font-bold py-3 px-12 
+           uppercase tracking-wider transition-colors duration-300 hover:bg-white hover:text-[#00c1d4];
+  }
+
+  .overlay-button {
+    @apply rounded-full border border-white bg-transparent text-white text-xs font-bold py-3 px-12 
+           uppercase tracking-wider transition-colors duration-300 hover:bg-white hover:text-[#00c1d4];
+  }
+}
